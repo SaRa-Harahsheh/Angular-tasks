@@ -11,6 +11,9 @@ import { CategoriesComponent } from './categories/categories.component';
 import { ProductComponent } from './product/product.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
+import { ProfileComponent } from './profile/profile.component';
+import { EditProfileComponent } from './edit-profile/edit-profile.component';
+import { SingleProductComponent } from './single-product/single-product.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { FooterComponent } from './footer/footer.component';
     CategoriesComponent,
     ProductComponent,
     NavBarComponent,
-    FooterComponent
+    FooterComponent,
+    ProfileComponent,
+    EditProfileComponent,
+    SingleProductComponent
   ],
   imports: [
     BrowserModule, HttpClientModule,
